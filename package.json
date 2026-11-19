@@ -1,8 +1,8 @@
 {
   "name": "dsh-project-status",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
-  "description": "Show a status dot on every sidebar project row and a sticky active-sessions area that lists waiting, running, and finished sessions",
+  "description": "DSH sidebar plugin: status dots on project rows plus a sticky active-sessions area (waiting / running / finished)",
   "icon": "./icon.svg",
   "license": "MIT",
   "author": "kelimaca",
@@ -30,7 +30,8 @@
     "icon.svg",
     "locale/*.json",
     "README.md",
-    "LICENSE"
+    "LICENSE",
+    "README.en.md"
   ],
   "dsh": {
     "bundle": {
