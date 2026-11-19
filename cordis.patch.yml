@@ -1,0 +1,5 @@
+# Bundle layer for the project-status plugin. It inserts one row; the Host half
+# is a no-op because every effect happens in the browser's sidebar.
+- insert:
+    - id: project-status
+      name: 'dsh-project-status'

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Project status and active sessions",
+    "description": "Show an aggregated status dot on every sidebar project row, plus a sticky active-sessions area at the top of the workspaces that lists waiting, running, and finished sessions; click one to open it, and it leaves the area when its status ends."
+  }
+}

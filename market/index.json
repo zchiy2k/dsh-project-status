@@ -1,0 +1,34 @@
+{
+  "format": 1,
+  "title": {
+    "en": "kelimaca DSH plugins",
+    "zh": "kelimaca 的 DSH 插件"
+  },
+  "plugins": [
+    {
+      "name": "dsh-project-status",
+      "title": {
+        "en": "Project status and active sessions",
+        "zh": "项目状态与活跃会话"
+      },
+      "description": {
+        "en": "Shows an aggregated status dot on every sidebar project row and a sticky active-sessions area that lists waiting, running, and finished sessions; click one to open it.",
+        "zh": "在侧栏每个项目标题行右侧显示聚合状态点，并在工作区顶部吸顶列出等待处理、进行中和已完成未读的会话，点击直接进入，状态消失后自动移走。"
+      },
+      "icon": "icons/project-status.svg",
+      "author": "kelimaca",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1795095885,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.3 <0.3.0"
+          }
+        }
+      ]
+    }
+  ]
+}
